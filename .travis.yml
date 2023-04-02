@@ -6,9 +6,9 @@
   services:
   - docker
 
-  before_script:
-  - docker images
-  - docker ps
+  install:
+  - docker image prune --all
+
 
   scrip:
   #Build
