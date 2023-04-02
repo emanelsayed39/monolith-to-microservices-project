@@ -7,7 +7,7 @@
   - docker
 
   install:
-  - docker image prune --all
+  - docker image prune --all --force
 
 
   scrip:
