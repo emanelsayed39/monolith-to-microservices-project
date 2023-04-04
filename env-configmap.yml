@@ -1,0 +1,8 @@
+
+POSTGRES_HOST=edr.cnnklolbwkig.us-east-1.rds.amazonaws.com
+POSTGRES_DB=postres
+AWS_BUCKET=s3-077371561088
+AWS_REGION=us-east-1
+AWS_PROFILE=default
+JWT_SECRET=testing
+URL=http://localhost:8100
