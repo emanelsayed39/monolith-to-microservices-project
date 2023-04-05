@@ -1,6 +1,6 @@
 
-POSTGRES_HOST=edr.cnnklolbwkig.us-east-1.rds.amazonaws.com
-POSTGRES_DB=postres
+POSTGRES_HOST=cdr.clmurogbxbho.us-east-1.rds.amazonaws.com 
+POSTGRES_DB=postgres
 AWS_BUCKET=s3-077371561088
 AWS_REGION=us-east-1
 AWS_PROFILE=default

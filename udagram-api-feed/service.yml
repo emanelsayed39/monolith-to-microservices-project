@@ -11,4 +11,4 @@ spec:
      targetPort: 8080
      protocol: TCP
   selector:
-    run: udagram-api-feed
+    service: udagram-api-feed
