@@ -27,7 +27,7 @@
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
   #- docker push emanelsayed/udagram-api-feed:v1.5
   #- docker push emanelsayed/udagram-api-user:v1.5
-  - docker push emanelsayed/udagram-frontend:v1.5
+  - docker push emanelsayed/udagram-frontend:v1.6
   #- docker push emanelsayed/udagram-reverseproxy:v1.5
     
 
