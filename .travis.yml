@@ -18,7 +18,7 @@
   #- docker build -t udagram-reverseproxy ./udagram-reverseproxy
 
   after_sucess:
-  #Tagging
+  #Tagging1
  # - docker tag udagram-api-feed emanelsayed/udagram-api-feed:v1.6
   #- docker tag udagram-api-user emanelsayed/udagram-api-user:v1.5
   - docker tag udagram-frontend emanelsayed/udagram-frontend:v1.7
