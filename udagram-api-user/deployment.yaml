@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: udagram-api-user
+  name: udagram-api-feed
   labels:
-    service: udagram-api-user
+    service: udagram-api-feed
 spec:
   replicas: 2
   selector:
@@ -15,14 +15,9 @@ spec:
         service: udagram-api-user
     spec:
       containers:
-      - name: udagram-api-user
-        image: emanelsayed/udagram-api-user:v1.5
+      - name: udagram-api-feed
+        image: emanelsayed/udagram-api-user:v1.6
         imagePullPolicy: Always
-        resources:
-          requests:
-            memory: "100Mi"
-          limits:
-            memory: "200Mi"
         ports:
         - containerPort: 8080
         envFrom:
