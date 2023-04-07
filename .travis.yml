@@ -21,13 +21,13 @@
   #Tagging
   #- docker tag udagram-api-feed emanelsayed/udagram-api-feed:v1.6
   #- docker tag udagram-api-user emanelsayed/udagram-api-user:v1.6
-  - docker tag udagram-frontend emanelsayed/udagram-frontend:v2
+  - docker tag udagram-frontend emanelsayed/udagram-frontend:v2.1
   #- docker tag udagram-reverseproxy emanelsayed/udagram-reverseproxy:v1.5
   # Assuming DOCKER_PASSWORD and DOCKER_USERNAME are set in the Travis repository settings 1
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
   #- docker push emanelsayed/udagram-api-feed:v1.6
   #- docker push emanelsayed/udagram-api-user:v1.6
-  - docker push emanelsayed/udagram-frontend:v2
+  - docker push emanelsayed/udagram-frontend:v2.1
   #- docker push emanelsayed/udagram-reverseproxy:v1.5
     
 
