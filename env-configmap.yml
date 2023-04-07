@@ -1,5 +1,5 @@
 
-POSTGRES_HOST=cdr.clmurogbxbho.us-east-1.rds.amazonaws.com 
+POSTGRES_HOST=cdr.clmurogbxbho.us-east-1.rds.amazonaws.com
 POSTGRES_DB=postgres
 AWS_BUCKET=s3-077371561088
 AWS_REGION=us-east-1
